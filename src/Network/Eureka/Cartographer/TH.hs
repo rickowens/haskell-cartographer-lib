@@ -1,7 +1,9 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE TemplateHaskell #-}
 {- |
-  Template haskell tools for compiling and incliding Elm files.
+  Template haskell tools for reading DOT files at build time for the purposes
+  of including the contents of those files in Eureka metadata readable by the
+  `cartographer-server` program.
 -}
 module Network.Eureka.Cartographer.TH (
   addCartographerMetadata
