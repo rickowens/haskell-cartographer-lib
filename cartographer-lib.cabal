@@ -23,7 +23,7 @@ library
   build-depends:
     base,
     containers,
-    eureka-client >= 0.2.0.0 && < 0.5,
+    eureka-client >= 0.4.1.1 && < 0.5,
     graphviz,
     template-haskell,
     text
